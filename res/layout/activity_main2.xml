@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   
+
+        <com.example.mtbf.TopCenterImageView
+            android:id="@+id/blur_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:src="@drawable/sky" />
+
+        <TextView
+            android:id="@+id/TotalSuccess"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:padding="5dp"
+            android:text="95.7 %"
+            android:textColor="#ECEEF1"
+            android:textSize="70sp" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/TotalSuccess"
+            android:divider="@null" />
+    
+</RelativeLayout>

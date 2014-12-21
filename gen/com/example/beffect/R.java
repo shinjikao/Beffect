@@ -9,6 +9,9 @@ package com.example.beffect;
 
 public final class R {
     public static final class array {
+        public static final int MTBFStabilityName=0x7f040002;
+        public static final int MTBFStabilityNumber=0x7f040001;
+        public static final int MTBFStabilitySuccessRate=0x7f040003;
         public static final int list_content=0x7f040000;
     }
     public static final class attr {
@@ -16,20 +19,35 @@ public final class R {
     public static final class drawable {
         public static final int candy=0x7f020000;
         public static final int expor=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int love=0x7f020003;
-        public static final int sky=0x7f020004;
+        public static final int googleplus=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int love=0x7f020004;
+        public static final int sky=0x7f020005;
     }
     public static final class id {
-        public static final int blur_image=0x7f070000;
-        public static final int list=0x7f070001;
+        public static final int TotalSuccess=0x7f070004;
+        public static final int blur_image=0x7f070003;
+        public static final int drawer_layout=0x7f070000;
+        public static final int exicon=0x7f070007;
+        public static final int frame_container=0x7f070001;
+        public static final int list=0x7f070005;
+        public static final int list_slidermenu=0x7f070002;
+        public static final int name=0x7f070009;
+        public static final int number=0x7f070008;
+        public static final int successrate=0x7f07000a;
+        public static final int txtItem=0x7f070006;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int list_item=0x7f030001;
+        public static final int activity_main2=0x7f030001;
+        public static final int drawer_list=0x7f030002;
+        public static final int list_item=0x7f030003;
+        public static final int mtbf_list=0x7f030004;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
+        public static final int close=0x7f050002;
+        public static final int open=0x7f050001;
     }
     public static final class style {
         /** 

@@ -6,9 +6,11 @@
     android:layout_height="wrap_content"
     android:textAppearance="?android:attr/textAppearanceListItemSmall"
     android:gravity="center_vertical"
+    android:textSize="10sp"
     android:textColor="#eee"
     android:background="#99333333"
     android:paddingStart="10dp"
     android:paddingEnd="10dp"
-    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    
 />

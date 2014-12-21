@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="18dp" >
+
+    <ImageView
+        android:id="@+id/exicon"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_alignParentStart="true"
+         android:layout_centerVertical="true"
+        android:src="@drawable/googleplus" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/exicon"
+        android:layout_marginLeft="20dp"
+       
+        android:text="Number"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/number"
+        android:text="Name"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/successrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="SuccessRate"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" >
+    </TextView>
+
+</RelativeLayout>

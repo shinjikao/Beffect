@@ -1,5 +1,7 @@
 <resources>
 
     <string name="app_name">Beffect</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
 
 </resources>
